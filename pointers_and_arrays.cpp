@@ -24,7 +24,7 @@ int main(){
     cout << "printing arr, the adress of the first element: " << arr << endl; // Name of array is address of first element. If we add 1 to it, it will point to the next element.
     // Access values by dereferencing
     for(i=0;i<7;i++)
-        cout << *(arr+i) << " ";//getting values from their corresponding adresses.
+        cout << *(arr+i) << " "; //getting values from their corresponding adresses. * is doing it.
     cout << endl;
 
 
