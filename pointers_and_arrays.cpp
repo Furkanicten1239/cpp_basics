@@ -12,24 +12,24 @@ int main(){
         arr[i] = i;
 
     // Print values in array
-    for(i=0;i<7;i++)
+    for(i=0; i<7; i++)
         cout << arr[i] << " ";
 
 
     cout << endl;
     // Print addresses
-    for(i=0;i<7;i++)
+    for(i=0; i<7; i++)
         cout<< &arr[i] << endl;
 
     cout << "printing arr, the adress of the first element: " << arr << endl; // Name of array is address of first element. If we add 1 to it, it will point to the next element.
     // Access values by dereferencing
-    for(i=0;i<7;i++)
+    for(i=0; i<7; i++)
         cout << *(arr+i) << " "; //getting values from their corresponding adresses. * is doing it.
     cout << endl;
 
 
     // Pointer for first array element
-    int *p=arr;
+    int *p = arr;
     // Print values using pointer increment
     for(i=0;i<7;i++){
         cout << *p << " ";
